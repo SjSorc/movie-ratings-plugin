@@ -1,0 +1,11 @@
+.rating-container {
+    right: 2px;
+    top: 2px;
+    position: absolute;
+    border-radius: 50%;
+    padding: 3px;
+    font-weight: bold;
+    background: #F5C518;
+    color: black;
+    box-shadow: 0 8px 6px -6px #381e1e;
+}

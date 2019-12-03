@@ -1,0 +1,13 @@
+{
+  "name": "IMDB ratings",
+  "description": "Extension which shows imdb ratings for titles",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["dist/bundle.js"],
+      "matches": ["https://www.netflix.com/*", "https://www.hotstar.com/*"]
+    }
+  ]
+}

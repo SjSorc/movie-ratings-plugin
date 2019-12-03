@@ -1,0 +1,16 @@
+{
+    "env": {
+      "development": {
+        "plugins": [
+          "transform-es2015-modules-commonjs"
+        ]
+      }
+    },
+    "presets": [
+      "node8",
+      "flow",
+      "es2017"
+    ],
+    "retainLines": true
+  }
+  

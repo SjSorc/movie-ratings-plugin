@@ -1,0 +1,10 @@
+1) use webpack 4 to have tree shaking - why? - just importing debounce from lodash increased
+the file size by 17k lines
+
+2) netflix arrow click not working all the time - 
+    a) attach listener to the whole bar
+    b) always take the last in the stream of clicks - study rxjs/observables
+
+3) observer.disconnect is getting called prematurely
+
+4) each mutation list handler is getting called twice
